@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <form>
+        <label
+          for="bgColor"
+        >
+          Background Color
+        </label>
+        <input
+          id="bgColor"
+          name="bgColor"
+          placeholder="#000000"
+          type="color"
+          value="#000000"
+        />
+        <label
+          for="width"
+        >
+          Width px
+        </label>
+        <input
+          id="width"
+          name="width"
+          placeholder="100"
+          type="number"
+          value="0"
+        />
+        <label
+          for="height"
+        >
+          Height px
+        </label>
+        <input
+          id="height"
+          name="height"
+          placeholder="100"
+          type="number"
+          value="0"
+        />
+        <button
+          id="box-submit"
+        >
+          Submit
+        </button>
+      </form>
+      <div />
+    </div>
+    <hr />
+    <div>
+      <form>
+        <label
+          for="text"
+        >
+          New Todo Item:
+        </label>
+        <input
+          id="text"
+          name="text"
+          placeholder=""
+          type="text"
+          value=""
+        />
+        <button
+          id="todo-submit"
+        >
+          Submit
+        </button>
+      </form>
+      <div>
+        <ul />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
